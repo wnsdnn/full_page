@@ -1,0 +1,10 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+ul, li{list-style: none;}
+a{text-decoration: none; color: inherit;}
+.flex{display: flex;}
+.grid{display: grid;}
+
+.container{position: relative; width: 100%; height: 100vh; overflow: hidden;}
+.container .box{width: 100%; height: 100vh; line-height: 100vh; text-align: center; background: #eee; font-size: 70px; font-weight: bold; transition: .5s;}
+.container .btns{position: absolute; width: 50px; height: 100vh; top: 0; right: 0; justify-content: center; flex-direction: column;}
+.container .btns input{margin: 10px;}
